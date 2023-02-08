@@ -5,9 +5,9 @@
 clc; clear; close all; 
 
 
-resistance = [];
-voltage = [];
-current = [];
+resistance = [2, 10, 1000];
+voltage = [4.8, 8, 9.6];
+current = [2.4, .8, 0];
 
 yyaxis left;
 semilogx(resistance, voltage,'LineWidth',2); 
